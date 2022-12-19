@@ -41,9 +41,9 @@ function App() {
 
       <UserBlock noTimer={true} colData={tableRowTitles}/>
 
-        {userData.map((data, index) => {
-          return <UserBlock key={index} isReset={isReset} colData={data} timerId={index} isCounting={isCounting} setCurrentTimerId={setCurrentTimerId} currentTimerId={currentTimerId} timeInterval={timeInterval} isLastOne={index === userData.length-1 ? true : false} />
-        })}
+      {userData.map((data, index) => {
+        return <UserBlock key={index} isReset={isReset} colData={data} timerId={index} isCounting={isCounting} setCurrentTimerId={setCurrentTimerId} currentTimerId={currentTimerId} timeInterval={timeInterval} isLastOne={index === userData.length-1 ? true : false} />
+      })}
         
       </div>
       <button className='button' disabled={isCounting ? true : false } onClick={handleStartClick}>Старт</button>
