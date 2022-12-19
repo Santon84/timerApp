@@ -4,11 +4,14 @@
   align-items: center;
 }
 .user-block-wrapper .user-body {
-  min-width: 200px;
   flex-shrink: 0;
 }
 .user-block-wrapper .user-body.disabled {
   color: #747474;
+}
+.user-block-wrapper .user-body:first-child {
+  width: 400px;
+  text-align: left;
 }
 .user-block-wrapper:first-child {
   width: 400px;
