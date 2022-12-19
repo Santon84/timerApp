@@ -10,7 +10,7 @@
   color: #747474;
 }
 .user-block-wrapper .user-body:first-child {
-  width: 400px;
+  min-width: 200px;
   text-align: left;
 }
 .user-block-wrapper:first-child {
