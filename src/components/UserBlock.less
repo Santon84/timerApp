@@ -15,8 +15,10 @@
             color: rgb(116, 116, 116);
         }
         &:first-child {
-        
-            min-width: 200px;
+            @media screen (max-width:640px){
+                min-width: 200px;
+            }
+            width: 400px;
             text-align: left;
         }
     }
