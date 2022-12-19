@@ -9,15 +9,6 @@
 .user-block-wrapper .user-body.disabled {
   color: #747474;
 }
-.user-block-wrapper .user-body:first-child {
-  width: 400px;
-  text-align: left;
-}
-@media screen (max-width: 640px) {
-  .user-block-wrapper .user-body:first-child {
-    min-width: 200px;
-  }
-}
 .user-block-wrapper:first-child {
   width: 400px;
   text-align: left;
