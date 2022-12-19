@@ -1,0 +1,20 @@
+.countdown-wrapper {
+  transition: all 0.5s ease-in;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #dddddd;
+}
+.countdown-wrapper span {
+  margin-right: 10px;
+}
+.countdown-wrapper.show {
+  opacity: 1;
+  transition: all 0.3s ease-in;
+}
+.countdown-wrapper.hide {
+  opacity: 0;
+  transition: all 0.1s ease-in;
+}
