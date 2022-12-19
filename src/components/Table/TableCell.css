@@ -14,5 +14,6 @@
   .table__cell {
     height: 80px;
     font-size: 12px;
+    width: 200px;
   }
 }
